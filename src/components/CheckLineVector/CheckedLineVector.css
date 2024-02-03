@@ -1,0 +1,112 @@
+.checked-icon4,
+.line-icon1 {
+  width: 1.75rem;
+  height: 1.75rem;
+  position: relative;
+  z-index: 2;
+}
+.line-icon1 {
+  width: 0.13rem;
+  height: 2.59rem;
+  z-index: 3;
+}
+.checked-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.right-section-frame1 {
+  position: relative;
+  line-height: 1.28rem;
+  font-weight: 500;
+  z-index: 2;
+}
+.next-btn-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.text {
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  line-height: 1.02rem;
+  color: var(--color-gray-100);
+  z-index: 2;
+}
+.background-rectangle,
+.fourth-step-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fourth-step-frame {
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.checked-icon5 {
+  height: 1.75rem;
+  width: 1.75rem;
+  position: relative;
+  z-index: 2;
+}
+.line-copy-icon1 {
+  height: 2.56rem;
+  width: 0.13rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -2.53rem;
+  left: calc(50% - 0.9px);
+  z-index: 4;
+}
+.checked-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.step-11 {
+  position: relative;
+  line-height: 1.28rem;
+  font-weight: 500;
+  z-index: 2;
+}
+.step-1-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.lorem-ipsum-dolor3 {
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  line-height: 1.02rem;
+  z-index: 2;
+}
+.frame-parent1 {
+  flex-direction: column;
+}
+.checked-line-vector,
+.frame-parent1,
+.line-copy-vector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line-copy-vector {
+  flex-direction: row;
+  gap: var(--gap-base);
+  margin-top: -0.06rem;
+}
+.checked-line-vector {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-smi-8);
+  color: var(--color-white);
+  font-family: var(--font-zen-kaku-gothic-antique);
+}

@@ -1,0 +1,128 @@
+.bg-main2,
+.bg-main3 {
+  width: 90rem;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.bg-main2 {
+  height: 56.25rem;
+  background: radial-gradient(50% 50%at 50% 50%, #382644, #03161b);
+}
+.bg-main3 {
+  align-self: stretch;
+  background-color: var(--color-ghostwhite);
+}
+.puzzle-icon1 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+.puzzle-icon-wrapper,
+.start-your-day-free-trial-butt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.puzzle-icon-wrapper {
+  padding: var(--padding-10xl) 1.63rem 0 0;
+}
+.start-your-day-free-trial-butt {
+  height: 30.06rem;
+  width: 30.31rem;
+  padding: var(--padding-223xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.btn-prytemplate1-2-item {
+  height: 1.88rem;
+  width: 5.56rem;
+  position: relative;
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.sign-in1 {
+  position: relative;
+  letter-spacing: 0.7px;
+  line-height: 1.41rem;
+  font-weight: 500;
+  z-index: 1;
+}
+.btn-prytemplate1-21 {
+  border: 1px solid var(--color-gray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-mid) var(--padding-9xs)
+    var(--padding-lg);
+  z-index: 1;
+}
+.template-button {
+  width: 5.5rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0 0;
+  box-sizing: border-box;
+}
+.bg-main-group,
+.rightbgoverlay-rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rightbgoverlay-rectangle {
+  width: 31.88rem;
+  overflow-x: auto;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.bg-main-group {
+  flex: 1;
+  background-color: var(--color-ghostwhite);
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-26xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--font-size-smi-8);
+  color: var(--color-gray-200);
+  font-family: var(--font-zen-kaku-gothic-antique);
+}
+.template-6sign-up1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .bg-main-group {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .start-your-day-free-trial-butt {
+    padding-top: var(--padding-138xl);
+    box-sizing: border-box;
+  }
+  .rightbgoverlay-rectangle {
+    gap: var(--gap-13xl);
+  }
+}

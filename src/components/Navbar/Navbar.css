@@ -1,0 +1,38 @@
+.nav--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.puzzle-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-prytemplate1-2-child {
+    height: 1.88rem;
+    width: 5.56rem;
+    position: relative;
+    border: 1px solid var(--color-gray-200);
+    box-sizing: border-box;
+    display: none;
+  }
+
+  .sign-in {
+    position: relative;
+    letter-spacing: 0.7px;
+    line-height: 1.41rem;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .btn-prytemplate1-2 {
+    border: 1px solid var(--color-gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-11xs) var(--padding-mid) var(--padding-9xs)
+      var(--padding-lg);
+    z-index: 1;
+  }
